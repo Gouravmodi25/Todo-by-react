@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Urbanist", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+/* body {
+  min-height: 100vh;
+} */
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+  font-weight: 900;
+}
+h1 {
+  font-size: 3.2rem;
+} */
+
+/* p,
+li,
+a,
+label,
+input {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  letter-spacing: 0.1 rem;
+  color: var(--para-color);
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+:root {
+  --main-color: #0062ff;
+  --supporting-color: #ebf3fe;
+  --font-color: #424242;
+  --background-color: #fff;
+  --h-color: #0a043c;
+  --white-color: #fff;
+  --heading-color: #000a19;
+  --para-color: #003b99;
+  --btn-box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+
+.container {
+  min-height: 100vh;
+  max-width: 142rem;
+  margin: 0 auto;
+  padding: 9.6rem 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid-two-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-three--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 1200px) {
+  .grid-three--cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .container {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 9.6rem 2.4rem;
+  }
+}
+
+@media (max-width: 794px) {
+  .grid-three--cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .container {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 9.6rem 2.4rem;
+  }
+  p,
+  li,
+  a,
+  label {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 330px) {
+  .grid-three--cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .container {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 9.6rem 2.4rem;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  p,
+  li,
+  a,
+  label {
+    font-size: 1.3rem;
+    gap: 7px;
+  }
+} */
